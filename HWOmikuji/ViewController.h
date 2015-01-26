@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *btnOmikuji;
+
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
+
+- (IBAction)tapBtnOmikuji:(id)sender;
 
 @end
 
